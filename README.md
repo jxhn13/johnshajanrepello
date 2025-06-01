@@ -97,7 +97,7 @@ Here's your complete 🚀 **Setup & Running Instructions**, updated to include b
 #### 🔹 Option A: Using **Conda**
 
 ```bash
-conda create -n ai-agent python=3.9 -y
+conda create -n ai-agent python=3.11 -y
 conda activate ai-agent
 ```
 
