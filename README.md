@@ -151,13 +151,26 @@ http://localhost:3000
 
 ---
 
-## 🔎 Example Queries
-
-* *“Compare the latest electric vehicle models and summarize their safety features.”*
-* *“What are the recent developments in quantum computing and their impact on cybersecurity?”*
-* *“List and explain the main points from recent climate change reports.”*
+Here’s the corrected and polished version of your **Example Queries** section with proper formatting and spelling fixes:
 
 ---
+
+## 🔎 Example Queries
+
+* “Compare the latest electric vehicle models and summarize their safety features.”
+* “What are the recent developments in quantum computing and their impact on cybersecurity?”
+* “List and explain the main points from recent climate change reports.”
+
+![aiweb1](https://github.com/user-attachments/assets/6078a329-d49c-423f-bccb-7f56ca7109bb)
+![aiweb2](https://github.com/user-attachments/assets/6321ded7-3005-4924-8547-75bf97b04957)
+![aiweb3](https://github.com/user-attachments/assets/769a70b9-9e6e-48ee-9d89-735fa0fa1458)
+
+For more example queries, see the `samplequeries.txt` file.
+
+---
+
+
+
 
 ## ⏳ Time Spent & Reflections
 
