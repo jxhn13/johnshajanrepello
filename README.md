@@ -171,9 +171,6 @@ Open your browser and go to:
 http://localhost:3000
 ```
 
----
-
-Let me know if you want a script (`setup.sh` or `setup.bat`) to automate this process.
 
 
 ---
