@@ -84,56 +84,97 @@ I developed an intelligent AI Research Assistant designed to answer complex user
 
 ---
 
-## 🚀 Setup & Running Instructions
+Here's your complete 🚀 **Setup & Running Instructions**, updated to include both **Conda** and **venv** (standard Python virtual environment) approaches, along with notes like installing `rustup-init` for packages like `playwright` that require Rust extensions.
 
-### 1. Create & activate virtual environment
+---
 
-Example using Conda:
+### 🚀 Setup & Running Instructions
+
+---
+
+### ✅ 1. Create & Activate Virtual Environment
+
+#### 🔹 Option A: Using **Conda**
 
 ```bash
 conda create -n ai-agent python=3.9 -y
 conda activate ai-agent
 ```
 
-### 2. Install dependencies
+#### 🔹 Option B: Using **venv (standard Python virtual environment)**
+
+```bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
+---
+
+### ✅ 2. Install Dependencies
 
 ```bash
 cd backend
+pip install --upgrade pip
+
+# If you're using packages that require Rust (like Playwright or some tokenizers), install Rust first:
+# Only if not installed
+curl https://sh.rustup.rs -sSf | sh
+# or on Windows, download & run rustup-init.exe from https://rustup.rs
+
+# Now install required Python dependencies
 pip install -r requirements.txt
 ```
 
-### 3. Set up environment variables
+---
 
-Create a `.env` file in `backend/` with API keys and configs, e.g.:
+### ✅ 3. Set Up Environment Variables
+
+Create a `.env` file in the `backend/` directory:
 
 ```env
 SEARCH_API_KEY=your_google_search_api_key_here
 OTHER_CONFIG=value
 ```
 
-### 4. Run backend
+---
+
+### ✅ 4. Run Backend
+
+Make sure you're inside the `backend/` directory:
 
 ```bash
 python run.py
 ```
 
-### 5. Run frontend
+---
+
+### ✅ 5. Run Frontend
 
 Open a new terminal:
 
 ```bash
-cd ../frontend
-npm install   # if not installed yet
+cd frontend
+npm install     # Only once
 npm start
 ```
 
-### 6. Access application
+---
 
-Open in browser:
+### ✅ 6. Access Application
+
+Open your browser and go to:
 
 ```
 http://localhost:3000
 ```
+
+---
+
+Let me know if you want a script (`setup.sh` or `setup.bat`) to automate this process.
+
 
 ---
 
