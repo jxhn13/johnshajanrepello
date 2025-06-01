@@ -135,8 +135,8 @@ pip install -r requirements.txt
 Create a `.env` file in the `backend/` directory:
 
 ```env
-SEARCH_API_KEY=your_google_search_api_key_here
-OTHER_CONFIG=value
+COHERE_API_KEY="YOUR_COHERE_API_KEY"
+SERPAPI_API_KEY="YOUR_SERPAPI_API_KEY"
 ```
 
 ---
