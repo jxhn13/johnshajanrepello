@@ -1,7 +1,3 @@
-Sure! Here’s your **AI Research Assistant with Web Browsing** project description formatted cleanly and professionally — perfect for a README, portfolio, or assignment submission:
-
----
-
 # AI Research Assistant with Web Browsing
 
 ## 🔍 Overview
