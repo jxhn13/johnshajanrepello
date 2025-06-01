@@ -84,9 +84,6 @@ I developed an intelligent AI Research Assistant designed to answer complex user
 
 ---
 
-Here's your complete 🚀 **Setup & Running Instructions**, updated to include both **Conda** and **venv** (standard Python virtual environment) approaches, along with notes like installing `rustup-init` for packages like `playwright` that require Rust extensions.
-
----
 
 ### 🚀 Setup & Running Instructions
 
@@ -171,10 +168,6 @@ Open your browser and go to:
 http://localhost:3000
 ```
 
-
-
----
-
 ## 📖 Usage Guide
 
 * **Open the app:** Visit `http://localhost:3000`
@@ -182,10 +175,6 @@ http://localhost:3000
 * **Submit query:** Click Generate to start live web search, extraction, sanitization, and synthesis
 * **View response:** The agent provides a clear answer with citations
 * **Security:** Unsafe queries will be politely rejected; output is filtered for harmful content
-
----
-
-Here’s the corrected and polished version of your **Example Queries** section with proper formatting and spelling fixes:
 
 ---
 
