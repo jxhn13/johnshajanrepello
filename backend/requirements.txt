@@ -6,8 +6,10 @@ cohere==4.50.0
 python-dotenv==1.0.1
 duckduckgo-search
 bleach==6.1.0
-torch==2.3.0
-transformers==4.41.1
+torch
+transformers
 flask-cors
 playwright
 google-search-results
+lxml_html_clean
+
