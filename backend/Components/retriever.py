@@ -19,7 +19,7 @@ def is_safe_query(query, banned_keywords=None):
     if banned_keywords is None:
         banned_keywords = [
             "hack", "illegal", "bomb", "attack", "weapon", "drugs", "terrorism", "kill",
-            "nudity", "porn", "sex", "adult", "xxx", "erotic", "naked", "pornography"
+            "nudity", "pornography"
         ]
     query_lower = query.lower()
     for word in banned_keywords:
